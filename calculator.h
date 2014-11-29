@@ -5,6 +5,5 @@
 
 QString getFinResult( QString &expression ) ;
 bool isHigher( QChar op_1 , QChar op_2 ) ;
-bool isRight( QString &expression ) ;
 
 #endif // CALCULATOR_H

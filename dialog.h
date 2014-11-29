@@ -64,6 +64,8 @@ private:
     Ui::Dialog *ui;
     QString s_input;
     QString s_output;
+    void moveCursur();
+    int cursur;
     QString getResult(QString &expression_);
 };
 

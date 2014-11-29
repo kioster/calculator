@@ -1,4 +1,5 @@
 #include "dialog.h"
+#include <QtPlugin>
 #include <QApplication>
 
 int main(int argc, char *argv[])

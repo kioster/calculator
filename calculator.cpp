@@ -117,7 +117,7 @@ QString getFinResult( QString &expression_ )
              num_box[i][0] == '~' ))
         {
             num_box[i] += "/1" ;
-            calculator_box.push( num_box.at(i).toLocal8Bit().data() ) ;
+            calculator_box.push( num_box[i].toLocal8Bit().data() ) ;
             continue ;
         }
 

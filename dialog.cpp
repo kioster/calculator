@@ -10,7 +10,6 @@ Dialog::Dialog(QWidget *parent) :
     ui(new Ui::Dialog)
 {
     ui->setupUi(this);
-    //ui->Input->setCursor();
 }
 
 Dialog::~Dialog()
@@ -346,6 +345,11 @@ void Dialog::keyPressEvent( QKeyEvent *key )
          key->key() == Qt::Key_Return )
     {
         this->on_pushButton_equal_clicked(false);
+    }
+
+    if ( key->key() == Qt::Key_Escape )
+    {
+        this->on_pushButton_AC_clicked(false);
     }
 
 }

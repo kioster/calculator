@@ -22,3 +22,7 @@ HEADERS  += dialog.h \
     calculator.h
 
 FORMS    += dialog.ui
+
+CONFIG += static
+
+QTPLUGIN += qsqloci qgif
